@@ -1,5 +1,5 @@
 # TransitStopMotion.rb
-# A video by Matt Grande.
+## A video by Matt Grande.
 
 require 'set'
 require 'tempfile'
@@ -336,4 +336,5 @@ animator.create_image
 # Convert the frames into a video via ffmpeg
 # puts `ffmpeg -r 27 -i frames/frame-%05d.png -r 30 video_90_90.mpg`
 
+# You're done!
 puts Time.now
